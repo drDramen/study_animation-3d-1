@@ -51,7 +51,6 @@ body {
     width: 200px;
     height: 300px;
     background-color: #7a3852;
-    transform-style: preserve-3d;
     transform: translateZ(-1px);
 }
 
@@ -78,13 +77,12 @@ body {
     width: 200px;
     height: 300px;
     background-color: #938275;
-    transform-style: preserve-3d;
     transform: translateZ(-1px);
 }
 
 
 .animate {
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -125,4 +123,3 @@ body {
         transform: rotatey(-180deg) translateZ(50px) rotatez(-360deg);
     }
 }
-
